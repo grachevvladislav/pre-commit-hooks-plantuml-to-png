@@ -3,7 +3,7 @@
 # Constants
 SOURCE_EXTENSION=".puml"
 TARGET_EXTENSION=".png"
-PLANTUML_JAR_PATH="tools/plantuml.jar"
+PLANTUML_JAR_PATH="$(dirname "${BASH_SOURCE[0]}")/tools/plantuml.jar"
 
 # Logging function
 log() {
