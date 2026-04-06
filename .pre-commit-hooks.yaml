@@ -1,0 +1,9 @@
+- id: plantuml-to-png
+  name: PlantUML to PNG generator
+  description: Generates PNG files from PlantUML diagram files
+  entry: pre-commit-plantuml-to-png.sh
+  language: script
+  files: \.puml$
+  pass_filenames: false
+  stages: [pre-commit]
+
